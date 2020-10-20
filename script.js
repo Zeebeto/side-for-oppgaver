@@ -1,7 +1,10 @@
-function swap (){
-    document.getElementById('h1').innerHTML = 'ny tekst';
+function wrong() {
+    document.getElementById("awnser").innerHTML ="WRONG STOOPID"
 }
 
-function reset(){
-    document.getElementById('h1').innerHTML = 'overskrift 1';
+function correct(){
+    document.getElementById("awnser").innerHTML ="CORRECT, YOU VERI SMART"
 }
+
+
+
