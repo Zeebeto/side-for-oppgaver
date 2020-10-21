@@ -3,7 +3,7 @@ function wrong() {
 }
 
 function correct(){
-    document.getElementById("awnser").innerHTML ="CORRECT, YOU VERI SMART"
+    document.getElementById("awnser").innerHTML ="CORRECT, YOU VERI SMART   "
 }
 
 
