@@ -62,6 +62,9 @@ body {
     position: relative;
     float: right;
 }
+#anwser {
+    color: red;
+}
 .content h1{
     /* margin: 20px; */
     text-align: center;
@@ -84,7 +87,15 @@ body {
     text-align: left;
 
 }
-/*"#slogan" refererer til "div id=slogan" i index*/
+.td {
+    font-size: 80px;
+    position: relative;
+    left: 400px;
+}
+table {
+ color: teal;
+}
+/*"#tekst" refererer til "div id=tekst" i index*/
 /*"#" forran id i css*/
 #tekst{
     background: rgba(0,0,0,.8);
@@ -98,8 +109,6 @@ body {
     padding: 0;
     text-align: center;
 }
-
-
 .footer {
     background: rgb(107, 107, 107);
     grid-area: footer;
@@ -110,12 +119,10 @@ body {
     border: black solid 1px;
     border-bottom: none;
 }
-
 .footer a {
     font-weight: bold;
     text-decoration: none;
 }
-
 .dropbtn {
     background-color: lightgray;
     color: black;
@@ -125,15 +132,11 @@ body {
     width: 100%;    
     height: 100%;
   }
-  
   .dropdown {
     width: 100%;
     height: 10%;
     background-color: black;
-
   }
-  
-
   .dropdown-content {
     display: none;
     position: relative;
@@ -141,10 +144,7 @@ body {
     width: 100%;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-
   }
-  
-
   .dropdown-content a {
     color: black;
     padding: 12px 16px;
@@ -152,12 +152,40 @@ body {
     display: block;
     text-align: center;
   }
-  
-
+    .dropdown2 {
+    width: 100%;
+    height: 10%;
+    background-color: black;
+  }
+    .dropdown-content2 {
+    display: none;
+    position: relative;
+    background-color: #f1f1f1;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropbtn2 {
+    background-color: lightgray;
+    color: black;
+    font-weight: bolder;
+    font-size: 24px;
+    border: none;
+    width: 100%;    
+    height: 100%;
+  }
+  .dropdown-content2 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
+/* dropdown menu 1 */
   .dropdown-content a:hover {background-color: darkgray;}
-  
-
   .dropdown:hover .dropdown-content {display: block;}
-  
-
   .dropdown:hover .dropbtn {background-color: darkgray;}
+/* dropdown navigation */
+.dropdown-content2 a:hover {background-color: darkgray;}
+.dropdown2:hover .dropdown-content2 {display: block;}
+.dropdown2:hover .dropbtn2 {background-color: darkgray;}

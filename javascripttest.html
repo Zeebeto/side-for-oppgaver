@@ -21,17 +21,28 @@
                 <a href="./CodeAlong.html">CodeAlong</a>
             </div>
         </div>
+        <div class="dropdown2">
+            <button class="dropbtn2">NAVIGATION</button>
+            <div class="dropdown-content2">
+                <a href="#oppg1">oppgave 1</a>
+                <a href="#oppg2">oppgave 2</a>
+                <a href="#oppg3">oppgave 3</a>
+            </div>
+        </div>
     </div>
     <div class="content">
-       <h1>QUESTION:</h1>
-       <h2>What from is the moon?</h2>
-        <ul>
-            <p><button id="b1" onclick="wrong()">Option 1</button>  Perfect cricle</p>
-            <p><button id="b2" onclick="correct()">Option 2</button>  Egg formed</p>
-            <p><button id="b3" onclick="wrong()">Option 3</button>  The moon is made of cheese... duh</p>
-        </ul>
-        <h1>Your awnser is:<h1 id="awnser"></h1></h1>
+      <div id="oppg1">
+            <h1>QUESTION:</h1>
+            <h2>What from is the moon?</h2>
+            <ul>
+                <p><button id="b1" onclick="wrong()">Option 1</button>  Perfect cricle</p>
+                <p><button id="b2" onclick="correct()">Option 2</button>  Egg formed</p>
+                <p><button id="b3" onclick="wrong()">Option 3</button>  The moon is made of cheese... duh</p>
+            </ul>
+                <h1>Your awnser is:<h1 id="anwser"></h1></h1>
             <hr>
+        </div>
+        <div id="oppg2">
             <p>Ferdighet 2a - Alternative eventhandlere: onchange osv.</p>
             <input id="TxtInput" type="text" onkeydown="TestOnKeyDown()" />
             <!-- onchange="testOnChange()" oninput="testOnInput()" -->
@@ -39,8 +50,24 @@
             <button id="resetbtn" onclick="Reset()">RESET</button>
             <button onclick="LogToConsole()">Log to Console</button>
             <p id="info"></p>
-            
-
+            <hr>
+        </div>
+            <div class="table" id="oppg3">
+                <table>
+                    <h2>ferdighet 3a</h2>
+                    <tr>
+                        <td class="td"onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">o</td>          
+                        <td class="td"onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">o</td>          
+                        <td class="td"onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">o</td>          
+                    </tr>
+                    <tr>
+                        <td class="td"onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">o</td> 
+                        <td class="td"onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">o</td> 
+                        <td class="td"onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">o</td> 
+                    </tr>
+                </table>
+                <hr>
+            </div>
     </div>
 
     

@@ -42,7 +42,7 @@ body {
     border-right: black solid 1px
 }
 
-.content {
+.content1 {
     background: rgba(246,243,240,1);
     grid-area: content;
     overflow:scroll;
@@ -66,6 +66,7 @@ body {
     height: auto;
     width: 600px;
 }
+
 #tekst{
     background: rgba(0,0,0,.8);
     color: #ffffff;
