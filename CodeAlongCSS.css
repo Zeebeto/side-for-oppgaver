@@ -49,43 +49,20 @@ body {
     /*
     -ms-overflow-style: none;  <-- gjemmer scrollbar i IE og edge browserne
     scrollbar-width: none; <-- gjemmer scrollbar i Firefox
-    */
-    
+    */  
 }
 .content::-webkit-scrollbar{ /*gjemmer scrollbaren men lar den fortsatt funke*/
     display: none;
 }
-.content img {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    float: right;
+.CA1 {
+    grid-area: content;
+    background-color: blue;
+    height: 100px;
+    width: 100px;
 }
-.content h1{
-    /* margin: 20px; */
-    text-align: center;
+.content button {
+    background-color: red;
 }
-.content h2{
-    /* margin: 20px; */
-    text-align: center;
-}
-.content p{
-    text-align: center;
-}
-
-#resetbtn {
-    height: 30px;
-    width: 150px;
-}
-
-#info {
-    margin: 10px;
-    text-align: left;
-
-}
-/*"#slogan" refererer til "div id=slogan" i index*/
-/*"#" forran id i css*/
 #tekst{
     background: rgba(0,0,0,.8);
     color: #ffffff;

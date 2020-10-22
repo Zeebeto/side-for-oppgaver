@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <script src="./script.js"></script>
     <title>GET academy oppgaver</title>
 </head>
 
@@ -19,7 +18,7 @@
             <button class="dropbtn">MENU</button>
             <div class="dropdown-content">
                 <a href="./index.html" title="tilbake til hovedsiden">Main</a>
-                <a href="./terjetime.html">terjetime</a>
+                <a href="./CodeAlong.html">CodeAlong</a>
             </div>
         </div>
     </div>
@@ -33,7 +32,15 @@
         </ul>
         <h1>Your awnser is:<h1 id="awnser"></h1></h1>
             <hr>
-        <h1>Bilde test</h1>
+            <p>Ferdighet 2a - Alternative eventhandlere: onchange osv.</p>
+            <input id="TxtInput" type="text" onkeydown="TestOnKeyDown()" />
+            <!-- onchange="testOnChange()" oninput="testOnInput()" -->
+            <!-- <h3 onmouseover="testOnMouseOver()" onmouseout="testOnMouseOut()">Test test test</h3> -->
+            <button id="resetbtn" onclick="Reset()">RESET</button>
+            <button onclick="LogToConsole()">Log to Console</button>
+            <p id="info"></p>
+            
+
     </div>
 
     
@@ -46,6 +53,6 @@
 </div>
 
 
-    
+<script src="./script.js"></script> 
 </body>
 </html>
