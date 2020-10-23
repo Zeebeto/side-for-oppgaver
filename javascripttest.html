@@ -29,7 +29,8 @@
                 <a href="#oppg3">oppgave 3</a>
             </div>
         </div>
-    </div>
+    </div><!--menu-->
+
     <div class="content">
       <div id="oppg1">
             <h1>QUESTION:</h1>
@@ -42,6 +43,7 @@
                 <h1>Your awnser is:<h1 id="anwser"></h1></h1>
             <hr>
         </div>
+
         <div id="oppg2">
             <p>Ferdighet 2a - Alternative eventhandlere: onchange osv.</p>
             <input id="TxtInput" type="text" onkeydown="TestOnKeyDown()" />
@@ -52,6 +54,7 @@
             <p id="info"></p>
             <hr>
         </div>
+
             <div class="table" id="oppg3">
                 <table>
                     <h2>ferdighet 3a</h2>
@@ -68,7 +71,33 @@
                 </table>
                 <hr>
             </div>
-    </div>
+
+        <div class="kodelås" id="oppg3">
+            <h2>kodelås</h2>
+            <p id="lockstatus"></p>
+            <p id="kodelåsdisplay"></p>
+            <div class="buttonblock1">
+                <button onclick="btn1()">1</button>
+                <button onclick="btn2()">2</button>
+                <button onclick="btn3()">3</button>
+            </div>
+                <div class="buttonblock2">
+                    <button onclick="btn4()">4</button>
+                    <button onclick="btn5()">5</button>
+                    <button onclick="btn6()">6</button>
+                </div>
+            <div class="buttonblock3">
+                <button onclick="btn7()">7</button>
+                <button onclick="btn8()">8</button>
+                <button onclick="btn9()">9</button>
+            </div>
+                <div class="buttonblock4">
+                <button onclick="rightcode(); btnpnd()" >#</button>
+                <button onclick="btn0()">0</button>
+                <button onclick="btnclear()">C</button>
+                </div>
+        </div>
+    </div> <!--content-->
 
     
     <div class="footer">
@@ -76,8 +105,7 @@
         <p>GET academy 2020&copy;</p>
         
     </div>
-
-</div>
+</div> <!--page-->
 
 
 <script src="./script.js"></script> 
