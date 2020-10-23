@@ -219,10 +219,19 @@ table {
     width: 100px;
     height: auto;
 }
-.kodelås p {
+#kodelåsdisplay {
     position: relative;
     left: 28vw;
     top: 2vh;
+    border: solid black 1px;
+    width: 310px;
+    height: 40px;
+    font-size: 2em;
+}
+#lockstatus{
+    position: relative;
+    left: 28vw;
+    top: 4vh;
     border: solid black 1px;
     width: 310px;
     height: 40px;

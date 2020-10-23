@@ -53,15 +53,16 @@ function mouseOut(z) {
 }
 
 //funksjoner for kodelås
-var kode = '';
-function rightcode() {
-    kode = document.getElementById('kodelåsdisplay').innerHTML = "";
-}
+var code = "";
 function btnpnd() {
-    if (kode == '0308') {
-        document.getElementById("lockstatus").innerHTML = "open";
+    code = document.getElementById('kodelåsdisplay').innerHTML;
+}
+
+function rightcode() {
+    if (code == '0308') {
+        document.getElementById('lockstatus').innerHTML = "Acces Granted"
     } else {
-        document.getElementById('lockstatus').innerHTML = "access denied";
+        document.getElementById('lockstatus').innerHTML = "Access Denied"
     }
 }
 function btn1() {
