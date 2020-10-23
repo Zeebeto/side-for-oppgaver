@@ -110,3 +110,7 @@ function btnclear() {
     document.getElementById('lockstatus').innerHTML = '';
 }
 
+//funksoner for oppg 5 onload
+
+document.getElementById('onloadtext').innerHTML = '' + new Date().toTimeString();
+document.getElementById('onloadpic').innerHTML = '<img style="height: auto; width: 300px;" src="https://assets.bigcartel.com/product_images/244926374/fullsizeoutput_663.jpeg?auto=format&fit=max&w=1500">' + new Date().toTimeString();
