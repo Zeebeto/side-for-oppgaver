@@ -29,6 +29,7 @@
                 <a href="#oppg3">oppgave 3</a>
                 <a href="#oppg4">oppgave 4</a>
                 <a href="#oppg5">oppgave 5</a>
+                <a href="#oppg6">oppgave 6</a>
             </div>
         </div>
     </div><!--menu-->
@@ -106,7 +107,16 @@
             <hr>
         </div>
         <div id="opp6">
-            <h1>test</h1>
+            <h1>Oppgave 5</h1>
+            <input id="sizeSlider" type="range" min="100" max="500" step="10" oninput="showDiv()" />
+            <br /><input id="textInput" type="text" oninput="showDiv()" value="endre teksten!" />
+            <select id="colorChooser" onchange="showDiv()">
+                <option value="red">Red color</option>
+                <option selected value="green">Green color</option>
+                <option value="blue">Blue color</option>
+            </select>
+            <div id="resultat"></div>
+            <div id="resultatHtml" style="font-family: monospace"></div>
         </div>
     </div> <!--content-->
 

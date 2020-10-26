@@ -114,3 +114,22 @@ function btnclear() {
 
 document.getElementById('onloadtext').innerHTML = '' + new Date().toTimeString();
 document.getElementById('onloadpic').innerHTML = '<img style="height: auto; width: 300px;" src="https://assets.bigcartel.com/product_images/244926374/fullsizeoutput_663.jpeg?auto=format&fit=max&w=1500">' + new Date().toTimeString();
+
+//oppgave 5
+var resultatDiv = document.getElementById('resultat');
+        var resultatHtmlDiv = document.getElementById('resultatHtml');
+        var sizeSlider = document.getElementById('sizeSlider');
+        var textInput = document.getElementById('textInput');
+        var colorChooser = document.getElementById('colorChooser');
+
+        showDiv();
+
+        function showDiv() {
+            resultatDiv.innerHTML = '<div style="'
+                + 'background-color: ' + colorChooser.value + ';'
+                + 'width: ' + sizeSlider.value + 'px;'
+                + 'height: ' + sizeSlider.value + 'px;'
+                + '">' +
+                textInput.value + '</div>';
+            resultatHtmlDiv.innerText = resultatDiv.innerHTML;
+        }
